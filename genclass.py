@@ -9,4 +9,11 @@ X = [[181, 80, 44], [177, 70, 43], [160, 60, 38],
 Y = ['male', 'female', 'female', 'female', 'male', 'male', 
 	'male', 'female', 'male', 'female', 'male']
 
-	
+# stores decision tree model (clf=classifier)
+clf = tree.DecisionTreeClassifier()
+
+clf = clf.fit(X,Y)
+
+
+
+
